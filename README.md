@@ -44,6 +44,7 @@ nodemon
 Step 1: Clone the Repository
 
 git clone https://github.com/tiwari99887/support-ticket-system.git
+
 cd support-ticket-system
 
 Step 2: Install Dependencies
@@ -77,12 +78,19 @@ Server will start on http://localhost:5000
 ticket-system/
 │
 ├── config/ → MongoDB configuration
+|
 ├── controllers/ → Business logic for auth, tickets, admin
+|
 ├── middleware/ → Auth middleware and error handlers
+|
 ├── models/ → Mongoose schemas for User and Ticket
+|
 ├── routes/ → Auth, Ticket, Admin route files
+|
 ├── app.js → Core Express setup
+|
 ├── server.js → Entry point
+|
 └── .env → Environment variables
 
 —
@@ -196,4 +204,5 @@ Call /tickets and /admin routes as per role
 📧 Author
 
 Shivam Kumar Tiwari
+
 Email: tiwarishivam99887@gmail.com
