@@ -76,21 +76,13 @@ Server will start on http://localhost:5000
 📂 Folder Structure
 
 ticket-system/
-│
 ├── config/ → MongoDB configuration
-|
 ├── controllers/ → Business logic for auth, tickets, admin
-|
 ├── middleware/ → Auth middleware and error handlers
-|
 ├── models/ → Mongoose schemas for User and Ticket
-|
 ├── routes/ → Auth, Ticket, Admin route files
-|
 ├── app.js → Core Express setup
-|
 ├── server.js → Entry point
-|
 └── .env → Environment variables
 
 —
